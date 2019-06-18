@@ -8,8 +8,10 @@ public class MyFirstJavaProgram {
 	public static void main(String[] args) {
 		
 		// START HERE
-	
-		
-		
-	}
-}
+Robot rob=new Robot("batman");	
+rob.penDown();		
+rob.move(100);
+rob.turn (90);
+rob.hide ();
+	}}
+
