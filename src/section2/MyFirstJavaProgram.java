@@ -9,6 +9,7 @@ public class MyFirstJavaProgram {
 		
 		// START HERE
 Robot rob=new Robot("batman");	
+rob.setSpeed(100);
 rob.penDown();		
 rob.move(100);
 rob.turn (90);

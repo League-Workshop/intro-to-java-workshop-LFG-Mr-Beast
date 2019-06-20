@@ -16,7 +16,7 @@ rob.setPenWidth(5);
 for (int i = 0; i < 4; i++) { 	
 
 			// 7. Set the pen color to random
-	
+	rob.setRandomPenColor();
 			// 1. Call the drawSquare() method
 	drawSquare();
 			// 8. Turn the robot 90 degrees to the right
